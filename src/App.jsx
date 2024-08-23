@@ -74,12 +74,12 @@ export const App = () => {
 	}
 
 	useEffect(() => {
-		searchMovies('')
+		searchMovies('one piece')
 	}, [])
 
 	return (
 		<div className="App">
-			<h1>👀MOVIZ✨</h1>
+			<h1>👀 MOVIZ ✨</h1>
 			<div className="search">
 				<input
 					placeholder="Search movie"
